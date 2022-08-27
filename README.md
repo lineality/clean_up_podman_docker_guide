@@ -2,11 +2,10 @@
 
 # Clean Up: Remove Old Container Files
 
-### Rule of Thumb: simply substitute "podman" for docker 
+Podman vs. Docker Rule of Thumb -> "docker" -> "podman" 
 
 #### Reference: One of the few extensive accurate lists:
 https://linuxize.com/post/how-to-remove-docker-images-containers-volumes-and-networks/
-
 
 
 # Podman
