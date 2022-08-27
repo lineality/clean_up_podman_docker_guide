@@ -25,7 +25,7 @@ $ podman system prune; podman image prune; podman volume prune; podman container
 
 ## for images that refuse to be deleted...
 ```
-$ docker images
+$ podman images
 ```
 Then number-id of images in here (in place of '#'):
 ```
