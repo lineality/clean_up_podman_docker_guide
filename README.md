@@ -30,7 +30,10 @@ Then number-id of images in here (in place of '#'):
 ```
 $ podman rmi # # # --force 
 ```
-
+## Quick Clean
+```
+podman images -q | xargs -r podman rmi -f
+```
 
 
 
@@ -58,3 +61,7 @@ $ sudo docker system df
 $ sudo docker system prune; sudo docker image prune; sudo docker volume prune; sudo docker container prune
 ```
 
+## Quick Clean
+```
+sudo docker images -q | xargs -r sudo docker rmi -f
+```
