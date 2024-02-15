@@ -28,7 +28,7 @@ podman system prune; podman image prune; podman volume prune; podman container p
 
 ## for images that refuse to be deleted...
 ```
-$ podman images
+podman images
 ```
 Then number-id of images in here (in place of '#'):
 ```
