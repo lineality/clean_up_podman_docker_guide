@@ -11,15 +11,19 @@ https://linuxize.com/post/how-to-remove-docker-images-containers-volumes-and-net
 # Podman
 'sudo' not needed using fedora linux
 
+## Quick Clean
+```
+podman images -q | xargs -r podman rmi -f
+```
 
 ## Check if docker is still using memory in any area:
 ```
-$ podman system df
+podman system df
 ```
 
 ## Remove Old Files (optional)
 ```
-$ podman system prune; podman image prune; podman volume prune; podman container prune
+podman system prune; podman image prune; podman volume prune; podman container prune
 ```
 
 ## for images that refuse to be deleted...
@@ -30,10 +34,7 @@ Then number-id of images in here (in place of '#'):
 ```
 $ podman rmi # # # --force 
 ```
-## Quick Clean
-```
-podman images -q | xargs -r podman rmi -f
-```
+
 
 
 
