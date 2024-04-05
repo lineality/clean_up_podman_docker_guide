@@ -64,6 +64,7 @@ sudo docker system prune; sudo docker image prune; sudo docker volume prune; sud
 ```
 
 ## Quick Clean
+Note: remove files after quick clean picks up more than running before alone
 ```
 sudo docker images -q | xargs -r sudo docker rmi -f
 ```
