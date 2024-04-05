@@ -45,8 +45,8 @@ $ podman rmi # # # --force
 
 
 ## for images that refuse to be deleted...
-```
-$ docker images
+```bash
+docker images
 ```
 Then number-id of images in here (in place of '#'):
 ```
