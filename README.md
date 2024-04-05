@@ -50,17 +50,17 @@ docker images
 ```
 Then number-id of images in here (in place of '#'):
 ```
-$ sudo docker rmi # # # --force 
+sudo docker rmi # # # --force 
 ```
 
 ## Check if docker is still using memory in any area:
 ```
-$ sudo docker system df
+sudo docker system df
 ```
 
 ## Remove Old Files (optional)
 ```
-$ sudo docker system prune; sudo docker image prune; sudo docker volume prune; sudo docker container prune
+sudo docker system prune; sudo docker image prune; sudo docker volume prune; sudo docker container prune
 ```
 
 ## Quick Clean
